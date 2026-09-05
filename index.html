@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anamn — Support</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f6f8;
+    --text: #14212b;
+    --muted: #5a6b78;
+    --accent: #0090b9;
+    --border: #dfe5ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10212e;
+      --surface: #172c3a;
+      --text: #eef4f7;
+      --muted: #a3b6c2;
+      --accent: #35b6dd;
+      --border: #24404f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 64px;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  header { padding: 56px 0 32px; }
+  h1 { font-size: 2rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); margin: 0; }
+  h2 { font-size: 1.15rem; margin: 40px 0 10px; letter-spacing: -0.01em; }
+  h3 { font-size: 1rem; margin: 24px 0 4px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin: 20px 0;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  .email { font-weight: 600; font-size: 1.05rem; }
+  footer {
+    margin-top: 56px; padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Anamn</h1>
+    <p class="tagline">Spaced repetition flashcards for iPhone.</p>
+  </header>
+
+  <div class="card">
+    <p>Need help, found a bug, or want to suggest something?</p>
+    <p class="email"><a href="mailto:dev39849321@outlook.com">dev39849321@outlook.com</a></p>
+    <p style="color:var(--muted);font-size:0.92rem;">One person reads every message. Expect a reply within a few days.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <h3>How do I import an Anki deck?</h3>
+  <p>Tap the ••• menu on the deck list and choose <strong>Import deck</strong>, then pick a
+  <code>.apkg</code> file. You can also open a <code>.apkg</code> from Files, Mail, or any other app
+  and choose Anamn. Cards, media, and your review history all come across. Re-importing an updated
+  version of a deck you already have will update the existing notes rather than duplicating them.</p>
+
+  <h3>Can I get my decks back out?</h3>
+  <p>Always. Open a deck and tap the share button, or use <strong>Export deck</strong> in the •••
+  menu, to save a standard <code>.apkg</code> file that Anki and other apps can read. Exporting is
+  never restricted — it works during the trial, after the trial ends, and whether or not you have
+  bought anything. Your collection is yours.</p>
+
+  <h3>How does the free trial work?</h3>
+  <p>You get seven days with everything unlocked. After that, a one-time purchase unlocks studying,
+  creating and editing cards, and importing decks. There is no subscription and no account.</p>
+  <p>If you decide not to buy, nothing is deleted or locked away: you can still browse all of your
+  cards and export every deck.</p>
+
+  <h3>I already paid, but a new phone is asking me to buy again</h3>
+  <p>Open the ••• menu, choose <strong>Help</strong>, and tap <strong>Restore purchases</strong>.
+  Make sure the device is signed in to the same Apple Account you bought with — purchases are tied to
+  the Apple Account, not the device.</p>
+
+  <h3>My decks are not syncing between devices</h3>
+  <p>Check the ••• menu → <strong>iCloud Sync</strong>. That screen shows whether sync is switched on,
+  whether the device is signed in to iCloud, and when it last synced successfully.</p>
+  <p>The most common cause is full iCloud storage — if your iCloud is out of space, Apple refuses new
+  data and syncing stops. The sync screen will tell you when this is happening. Your decks stay safe
+  on the device regardless.</p>
+
+  <h3>Does it work offline?</h3>
+  <p>Yes. Everything is stored on your device, and no internet connection is needed to study. iCloud
+  sync, if you turn it on, is the only part that uses the network.</p>
+
+  <h2>Privacy</h2>
+  <p>Anamn has no accounts and no servers. Your cards never reach us. See the
+  <a href="privacy.html">privacy policy</a> for the details.</p>
+
+  <footer>
+    <p>Anamn · <a href="mailto:dev39849321@outlook.com">dev39849321@outlook.com</a> ·
+    <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
